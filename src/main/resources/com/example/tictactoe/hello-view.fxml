@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.tictactoe.HelloController">
+    <HBox>
+        <Label fx:id="l1" minHeight="30" minWidth="300" text="Welcome to the Tic Tac Toe :)">
+        </Label>
+    </HBox>
+    <HBox>
+        <Button fx:id="b1" minHeight="100" minWidth="100" onMouseClicked="#buttonClicked"></Button>
+        <Button fx:id="b2" minHeight="100" minWidth="100" onMouseClicked="#buttonClicked"></Button>
+        <Button fx:id="b3" minHeight="100" minWidth="100" onMouseClicked="#buttonClicked"></Button>
+    </HBox>
+    <HBox>
+        <Button fx:id="b4" minHeight="100" minWidth="100" onMouseClicked="#buttonClicked"></Button>
+        <Button fx:id="b5" minHeight="100" minWidth="100" onMouseClicked="#buttonClicked"></Button>
+        <Button fx:id="b6" minHeight="100" minWidth="100" onMouseClicked="#buttonClicked"></Button>
+    </HBox>
+    <HBox>
+        <Button fx:id="b7" minHeight="100" minWidth="100" onMouseClicked="#buttonClicked"></Button>
+        <Button fx:id="b8" minHeight="100" minWidth="100" onMouseClicked="#buttonClicked"></Button>
+        <Button fx:id="b9" minHeight="100" minWidth="100" onMouseClicked="#buttonClicked"></Button>
+    </HBox>
+    <HBox>
+        <Button fx:id="o1" text="Bot" minHeight="100" minWidth="100" onMouseClicked="#bbot"></Button>
+        <Button fx:id="o2" text="1vs1" minHeight="100" minWidth="100" onMouseClicked="#b1vs1"></Button>
+        <Button fx:id="o3" text="Clear" minHeight="100" minWidth="100" onMouseClicked="#bClear"></Button>
+    </HBox>
+</VBox>
+
